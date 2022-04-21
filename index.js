@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require('fs')
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown.js');
 const generate = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
@@ -12,13 +11,29 @@ const questions = [
   }, 
   {
     input: "select",
-    message: "Please select a license",
+    message: "Please select a license?",
     choices: [],
     name: 'license'
   }, 
   {
-    message: "Describe your application in 3 sentences",
+    message: "Describe your application in 3 sentences?",
     name: 'description'
+  }, 
+  {
+    message: 'How do you install your application?',
+    name: 'installation'
+  }, 
+  {
+    message: 'How do you use your application?',
+    name: 'usage'
+  }, 
+  {
+    message: 'How can we test your application?',
+    name: 'testing'
+  }, 
+  {
+    message: 'How can we contribute to your project?',
+    name: 'testing'
   }, 
   {
     message: 'What is your e-mail address',
@@ -31,26 +46,29 @@ const questions = [
 
 ];
 
+let generateMD = ''
 function askUser(qArray) {
   inquirer.prompt(
     qArray
   )
   .then((answers) => {
-    generate.generateMarkdown(answers)
+    generateMD = generate.generateMarkdown(answers)
+  writeToFile(generateMD)
   })
 }
-let generatedMD =  
 
 // TODO: Create a function to write README file
-//
-function writeToFile(, data) {
 
+function writeToFile(data) {
+  fs.writeFile("generated.md", data, err =>{
+    err ? console.log(err) : console.log("Markdown Successfully Generated")
+  })
 }
+
 
 // TODO: Create a function to initialize app
 function init() {
   askUser(questions)
-  generateMarkdown()
 }
 
 // Function call to initialize app
