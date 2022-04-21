@@ -1,8 +1,8 @@
 
-  # stnei
+  # This is nice
 
   ## Description
-  tnei
+  no. no i wont. make me.
 
   ## Table of contents
 
@@ -14,25 +14,25 @@
    * [Contact/Questions](#questions)
 
   ## Installation 
-  tneii
+  clone the repository, run `npm install`
 
   ## Usage
 
-  tsnei
+  node index.js
 
   ## License
 
-  tnei
+  okay
 
   ## Contributing
 
-  undefined
+  please contact me
 
   ## Testing
-  undefined
+  please contact me
 
   ## Questions?
-  Please email me at: tnei
+  Please email me at: sgquin@gmail.com
   Alternatively you can see my github at:
-  http://www.github.com/nei
+  http://www.github.com/sharkby7e
   

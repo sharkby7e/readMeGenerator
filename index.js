@@ -33,7 +33,7 @@ const questions = [
   }, 
   {
     message: 'How can we contribute to your project?',
-    name: 'testing'
+    name: 'contributing'
   }, 
   {
     message: 'What is your e-mail address',

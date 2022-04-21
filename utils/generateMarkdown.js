@@ -45,10 +45,10 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## Testing
-  ${data.testin}
+  ${data.testing}
 
   ## Questions?
-    Please email me at: ${data.email}
+  Please email me at: ${data.email}
   Alternatively you can see my github at:
   http://www.github.com/${data.github}
   `;
