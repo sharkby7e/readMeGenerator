@@ -1,31 +1,4 @@
-
-  # sit
-
-  ## Description
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-  stnsei
-
-  ## Table of contents
-
-   * [Installation](#installation)
-   * [Usage](#usage)
-   * [License](#license)
-   * [Contributing](#contributing)
-   * [Testing](#tests)
-   * [Contact/Questions](#questions)
-
-  ## Installation 
-  
-  stnie
-
-  ## Usage
-
-  stnei
-
-  ## License
-
-  GNU GENERAL PUBLIC LICENSE
+module.exports = `GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -680,11 +653,11 @@ Also add information on how to contact you by electronic and paper mail.
 notice like this when it starts in an interactive mode:
 
     <program>  Copyright (C) <year>  <name of author>
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This program comes with ABSOLUTELY NO WARRANTY; for details type \`show w'.
     This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
+    under certain conditions; type \`show c' for details.
 
-The hypothetical commands `show w' and `show c' should show the appropriate
+The hypothetical commands \`show w' and \`show c' should show the appropriate
 parts of the General Public License.  Of course, your program's commands
 might be different; for a GUI interface, you would use an "about box".
 
@@ -698,19 +671,5 @@ into proprietary programs.  If your program is a subroutine library, you
 may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
-<https://www.gnu.org/licenses/why-not-lgpl.html>.
+<https://www.gnu.org/licenses/why-not-lgpl.html>.`
 
-  ## Contributing
-
-  stnie
-
-  ## Testing
-
-  stnei
-
-  ## Questions?
-  Please email me at: stnei
-
-  Alternatively you can see my github at:
-  http://www.github.com/stnei
-  

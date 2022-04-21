@@ -10,9 +10,9 @@ const questions = [
     name: 'name'
   }, 
   {
-    input: "select",
-    message: "Please select a license?",
-    choices: [],
+    type: "list",
+    message: "Please select a license",
+    choices: ['gnu','mit','apache'],
     name: 'license'
   }, 
   {
@@ -46,14 +46,15 @@ const questions = [
 
 ];
 
-let generateMD = ''
 function askUser(qArray) {
   inquirer.prompt(
     qArray
   )
   .then((answers) => {
-    generateMD = generate.generateMarkdown(answers)
-  writeToFile(generateMD)
+    generate.renderLicenseSection(answers.license)
+    generate.renderLicenseBadge(answers.license)
+    let generateMD = generate.generateMarkdown(answers)
+    writeToFile(generateMD)
   })
 }
 
