@@ -51,7 +51,6 @@ function askUser(qArray) {
     qArray
   )
   .then((answers) => {
-    generate.renderLicenseSection(answers.license)
     generate.renderLicenseBadge(answers.license)
     let generateMD = generate.generateMarkdown(answers)
     writeToFile(generateMD)
