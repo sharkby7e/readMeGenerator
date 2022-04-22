@@ -12,7 +12,7 @@ const questions = [
   {
     type: "list",
     message: "Please select a license",
-    choices: ['gnu','mit','apache'],
+    choices: ['apache','gnu','mit'],
     name: 'license'
   }, 
   {

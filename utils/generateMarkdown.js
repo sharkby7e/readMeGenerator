@@ -1,16 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-  // license = process.argv 
-// }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// let licText
 let licenseBadge
 function renderLicenseBadge(license) {
   switch(license){
@@ -27,22 +14,7 @@ function renderLicenseBadge(license) {
       licenseBadge = ''
   }
 }
-// function renderLicenseSection(license) {
-//   switch(license){
-//     case 'apache':
-//       licText = require('../licenses/apache.js')
-//       break;
-//     case 'gnu':
-//       licText = require('../licenses/gnu.js')
-//       break;
-//     case 'mit':
-//       licText = require('../licenses/mit.js')
-//       break;
-//     
-//     default:
-//       licText = ''
-//   }
-// }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -64,14 +36,15 @@ function generateMarkdown(data) {
 
   ## Installation 
   
-  ${data.installation}
+  \`${data.installation}\`
 
   ## Usage
 
-  ${data.usage}
+  \`${data.usage}\`
 
   ## License
-  Please click the badge to see full license text
+
+  The full license text can be found by clicking the badge
 
   ${licenseBadge}
 

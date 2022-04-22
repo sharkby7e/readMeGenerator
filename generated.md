@@ -1,10 +1,10 @@
 
-  # Sid 
+  # Sid
 
   ## Description
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-  tsneit
+  stnseiuy
 
   ## Table of contents
 
@@ -17,28 +17,29 @@
 
   ## Installation 
   
-  stnei
+  `stnsitist`
 
   ## Usage
 
-  stnei
+  `stniste`
 
   ## License
-  Please click the badge to see full license text
+
+  The full license text can be found by clicking the badge
 
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
 
-  tsneitu
+  stneit
 
   ## Testing
 
-  stnei
+  stneist
 
   ## Questions?
-  Please email me at: nei
+  Please email me at: stneist
 
   Alternatively you can see my github at:
-  http://www.github.com/nei
+  http://www.github.com/stneist
   
