@@ -1,10 +1,10 @@
 
-  # Sdneirstn
+  # Sid's Awesome Application
 
   ## Description
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  strneistrstrs
+  This application makes you rich. Fast. It hacks the bank accounts of Forbes 500 CEO's and discretely deposits the funds into an account of your choosing. It does this work discretely and safely
 
   ## Table of contents
 
@@ -20,7 +20,7 @@
   To install please run the following command:
   
   ```bash
-  rstnrseit
+  npm install
   ```
 
   ## Usage
@@ -28,7 +28,7 @@
   To run the program, please run the following command:
 
   ```bash
-  rstnei
+  node index.js
   ```
   
   Then, follow the prompts on screen
@@ -37,23 +37,23 @@
 
   The full license text can be found by clicking the badge
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contributing
 
-  rstnirst
+  Please contact me below
 
   ## Testing
 
   To test the application, run the following command: 
 
   ```bash
-  rstnei
+  npm run test
   ```
 
   ## Questions?
-  Please email me at: rsitersnt
+  Please email me at: sgquin@gmail.com
 
   Alternatively you can visit my github at:
-  http://www.github.com/risetnrst
+  http://www.github.com/sharkby7e
   
