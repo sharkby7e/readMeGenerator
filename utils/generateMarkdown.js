@@ -31,16 +31,26 @@ function generateMarkdown(data) {
    * [Usage](#usage)
    * [License](#license)
    * [Contributing](#contributing)
-   * [Testing](#tests)
+   * [Testing](#testing)
    * [Contact/Questions](#questions)
 
   ## Installation 
+
+  To install please run the following command:
   
-  \`${data.installation}\`
+  \`\`\`bash
+  ${data.installation}
+  \`\`\`
 
   ## Usage
 
-  \`${data.usage}\`
+  To run the program, please run the following command:
+
+  \`\`\`bash
+  ${data.usage}
+  \`\`\`
+  
+  Then, follow the prompts on screen
 
   ## License
 
@@ -54,12 +64,16 @@ function generateMarkdown(data) {
 
   ## Testing
 
-  \`${data.testing}\`
+  To test the application, run the following command: 
+
+  \`\`\`bash
+  ${data.testing}
+  \`\`\`
 
   ## Questions?
   Please email me at: ${data.email}
 
-  Alternatively you can see my github at:
+  Alternatively you can visit my github at:
   http://www.github.com/${data.github}
   `;
 }

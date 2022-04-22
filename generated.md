@@ -1,10 +1,10 @@
 
-  # Sid
+  # Sdneirstn
 
   ## Description
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-  stnseiuy
+  strneistrstrs
 
   ## Table of contents
 
@@ -12,34 +12,48 @@
    * [Usage](#usage)
    * [License](#license)
    * [Contributing](#contributing)
-   * [Testing](#tests)
+   * [Testing](#testing)
    * [Contact/Questions](#questions)
 
   ## Installation 
+
+  To install please run the following command:
   
-  `stnsitist`
+  ```bash
+  rstnrseit
+  ```
 
   ## Usage
 
-  `stniste`
+  To run the program, please run the following command:
+
+  ```bash
+  rstnei
+  ```
+  
+  Then, follow the prompts on screen
 
   ## License
 
   The full license text can be found by clicking the badge
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Contributing
 
-  stneit
+  rstnirst
 
   ## Testing
 
-  stneist
+  To test the application, run the following command: 
+
+  ```bash
+  rstnei
+  ```
 
   ## Questions?
-  Please email me at: stneist
+  Please email me at: rsitersnt
 
-  Alternatively you can see my github at:
-  http://www.github.com/stneist
+  Alternatively you can visit my github at:
+  http://www.github.com/risetnrst
   
