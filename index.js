@@ -20,15 +20,15 @@ const questions = [
     name: 'description'
   }, 
   {
-    message: 'How do you install your application?',
+    message: 'What command can we run to install your application?',
     name: 'installation'
   }, 
   {
-    message: 'How do you use your application?',
+    message: 'What command can we run to run your application?',
     name: 'usage'
   }, 
   {
-    message: 'How can we test your application?',
+    message: 'What command can we run to test your application?',
     name: 'testing'
   }, 
   {
@@ -60,8 +60,8 @@ function askUser(qArray) {
 // TODO: Create a function to write README file
 
 function writeToFile(data) {
-  fs.writeFile("generated.md", data, err =>{
-    err ? console.log(err) : console.log("Markdown Successfully Generated")
+  fs.writeFile("GENERATED.md", data, err =>{
+    err ? console.log(err) : console.log("Markdown Successfully Generated!")
   })
 }
 

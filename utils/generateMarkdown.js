@@ -54,7 +54,7 @@ function generateMarkdown(data) {
 
   ## Testing
 
-  ${data.testing}
+  \`${data.testing}\`
 
   ## Questions?
   Please email me at: ${data.email}
